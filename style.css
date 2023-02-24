@@ -1,0 +1,56 @@
+.container {
+
+  background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 180px;
+
+  background-position: center;
+}
+
+body {
+  background-image: url("sunset.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  filter:drop-shadow();
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.h2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 650px;
+
+
+}
+
+h2 {
+  font-size: 48px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+}
